@@ -11,16 +11,16 @@ export async function connectRPC() {
 
         rpc.on("ready", () =>
             rpc.setActivity({
-                state: "revolt.chat",
+                state: "Exodus.icu",
                 details: "Chatting with others",
                 largeImageKey: "qr",
-                largeImageText: "Communication is critical – use Revolt.",
+                largeImageText: "Communication is critical – use Exodus.",
                 buttons: [
                     {
                         label: "Join Public Beta",
-                        url: "https://revolt.chat/publicbeta",
+                        url: "https://blog.exodus.icu/public-beta",
                     },
-                    { label: "Website", url: "https://revolt.chat" },
+                    { label: "Website", url: "https://exodus.icu" },
                 ],
             }),
         );

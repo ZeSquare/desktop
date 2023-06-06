@@ -1,14 +1,14 @@
 {
-    "name": "revolt-desktop",
+    "name": "Exodus-desktop",
     "version": "1.0.6",
-    "description": "Revolt desktop app",
+    "description": "Exodus desktop app",
     "private": true,
     "author": {
-        "name": "Paul Makles",
-        "url": "https://insrt.uk",
-        "email": "me@insrt.uk"
+        "name": "Brock Sexton",
+        "url": "https://bksn.pro",
+        "email": "urgent@brocksexton.com"
     },
-    "homepage": "https://revolt.chat",
+    "homepage": "https://app.exodus.icu",
     "main": "bundle/main.js",
     "scripts": {
         "start": "electron .",
@@ -23,7 +23,7 @@
         "clean": "rimraf dist",
         "fmt": "prettier --write 'src/**/*.{js,jsx,ts,tsx}'"
     },
-    "repository": "revoltchat/desktop",
+    "repository": "Exodus/desktop",
     "devDependencies": {
         "@types/auto-launch": "^5.0.2",
         "@types/discord-rpc": "^4.0.3",
@@ -36,9 +36,9 @@
         "tsc-watch": "^5.0.3",
         "typescript": "^4.9.3"
     },
-    "productName": "Revolt",
+    "productName": "Exodus",
     "build": {
-        "appId": "chat.revolt.app",
+        "appId": "chat.52k.app",
         "mac": {
             "target": [
                 {
@@ -77,15 +77,15 @@
                 }
             ],
             "category": "InstantMessaging",
-            "executableName": "revolt-desktop",
+            "executableName": "Exodus-desktop",
             "desktop": {
-                "Name": "Revolt",
+                "Name": "Exodus",
                 "Comment": "User-first, privacy focused chat platform.",
                 "Terminal": false,
                 "Type": "Application",
-                "Icon": "revolt-desktop",
+                "Icon": "Exodus-desktop",
                 "Categories": "InstantMessaging",
-                "StartupWMClass": "RevoltDesktop"
+                "StartupWMClass": "ExodusDesktop"
             }
         },
         "win": {
@@ -109,11 +109,11 @@
         },
         "appx": {
             "backgroundColor": "#0F1823",
-            "displayName": "Revolt Chat",
-            "applicationId": "revolt.chat",
-            "identityName": "40345RevoltCommunications.revolt.chat",
+            "displayName": "Exodus",
+            "applicationId": "chat.52k.ca",
+            "identityName": "40345BKSN.Exodus.chat",
             "publisher": "CN=B040CC7E-0016-4AF5-957F-F8977A6CFA3B",
-            "publisherDisplayName": "Revolt Communications"
+            "publisherDisplayName": "BKSN.pro"
         },
         "publish": {
             "provider": "github"

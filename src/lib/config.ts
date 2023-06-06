@@ -50,10 +50,10 @@ export function getBuildURL() {
 
     switch (build) {
         case "dev":
-            return "http://local.revolt.chat:3001";
+            return "http://app.exodus.icu";
         case "nightly":
-            return "https://nightly.revolt.chat";
+            return "https://app.exodus.icu";
         default:
-            return "https://app.revolt.chat";
+            return "https://app.exodus.icu";
     }
 }
